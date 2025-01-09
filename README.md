@@ -1,27 +1,27 @@
 # Criptografia e Descriptografia de Arquivos
 
-Este projeto consiste em dois scripts Python (`encrypter.py` e `decrypter.py`) para criptografar e descriptografar arquivos de texto. Ele permite proteger dados sensíveis armazenados em um arquivo.
+Este projeto contém dois scripts Python para criptografar e descriptografar arquivos de texto.
 
----
+## Como funciona
 
-## Arquivos no Projeto
-
-- **`encrypter.py`**: Script para criptografar arquivos.
-- **`decrypter.py`**: Script para descriptografar arquivos previamente criptografados.
-- **`teste.txt`**: Arquivo de exemplo para testar os scripts.
-
----
-
-## Como usar
-
-### Pré-requisitos
-- Certifique-se de ter o **Python 3.x** instalado.
-- Instale as bibliotecas necessárias (se aplicável) com `pip install`.
-
----
-
-### Passo 1: Criptografar um arquivo
-1. Insira os dados no arquivo `teste.txt` ou crie outro arquivo de texto que você deseja criptografar.
-2. Execute o script de criptografia:
+### Criptografar um arquivo
+1. Execute o comando:
    ```bash
    python encrypter.py
+   ```
+2. O conteúdo do arquivo será criptografado.
+
+### Descriptografar um arquivo
+1. Execute o comando:
+   ```bash
+   python decrypter.py
+   ```
+2. O conteúdo original será restaurado.
+
+## Estrutura do Projeto
+```plaintext
+.
+├── encrypter.py    # Script para criptografar
+├── decrypter.py    # Script para descriptografar
+├── teste.txt       # Arquivo de teste
+```
